@@ -43,7 +43,7 @@ def hit?(number)
   if input == "h"
     num +=deal_card
   elsif input == "s"
-    puts number
+    return number
   else
     invalid_command
     prompt_user
