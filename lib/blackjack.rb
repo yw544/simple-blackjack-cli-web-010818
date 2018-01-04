@@ -21,14 +21,19 @@ end
 
 def get_user_input
   # code #get_user_input here
+  gets.chomp
 end
 
-def end_game
+def end_game (over)
   # code #end_game here
+  puts "Sorry, you hit #{over}. Thanks for playing!"
 end
 
 def initial_round
   # code #initial_round here
+  display_card_total(deal_card + deal_card)
+  return deal_card + deal_card
+
 end
 
 def hit?
