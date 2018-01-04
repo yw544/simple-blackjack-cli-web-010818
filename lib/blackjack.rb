@@ -21,7 +21,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  gets.chomp
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def end_game (over)
